@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CubeTimer Metro</title>
+    <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4.3.2/css/metro-all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div data-role="cube" data-cells="3" data-margin="10" data-show-axis="true" data-axis-style="arrow"
+        data-cls-axis-x="bg-cyan" data-cls-axis-y="bg-green" data-cls-axis-z="bg-orange" class="cube"></div>
+
+    <!-- <div class="timer" data-role="draggable" data-drag-area="body">
+        <h1>00.00</h1>
+    </div> -->
+
+    <!-- <ul data-app-bar="true" data-role="materialtabs">
+        <li class="active"><a href="#timer">Timer</a></li>
+        <li><a href="#sessions">Sessions</a></li>
+        <li><a href="#solves">Solves</a></li>
+        <li><a href="#stats">Stats</a></li>
+    </ul>
+    <div style="margin-top: 80px">
+        <div id="timer">Timer</div>
+        <div id="sessions">Sessions</div>
+        <div id="solves">Solves</div>
+        <div id="stats">Stats</div>
+    </div> -->
+
+    <!-- <div data-role="accordion" data-one-frame="true" data-show-active="true" data-material="true">
+        <div class="frame active">
+            <div class="heading">Timer</div>
+            <div class="content">
+                TIMER
+            </div>
+        </div>
+        <div class="frame">
+            <div class="heading">Sessions</div>
+            <div class="content">
+                SESSIONS
+            </div>
+        </div>
+        <div class="frame">
+            <div class="heading">Solves</div>
+            <div class="content">
+                SOLVES
+            </div>
+        </div>
+        <div class="frame">
+            <div class="heading">Stats</div>
+            <div class="content">
+                STATS
+            </div>
+        </div>
+    </div> -->
+
+    <div data-role="splitter" class="splitter" data-gutter-size="10" data-min-sizes="200">
+        <div class="d-flex flex-justify-center flex-align-center">Timer</div>
+        <div data-role="splitter" data-split-mode="vertical" data-gutter-size="10" data-min-sizes="250">
+            <div class="d-flex flex-justify-center flex-align-center">Sessions + Solves</div>
+            <div class="d-flex flex-justify-center flex-align-center">Stats (avg)</div>
+        </div>
+    </div>
+
+    <script src="https://cdn.metroui.org.ua/v4.3.2/js/metro.min.js"></script>
+</body>
+
+</html>

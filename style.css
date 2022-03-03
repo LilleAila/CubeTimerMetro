@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+/* .timer {
+  cursor: move;
+  z-index: 999999999;
+} */
+
+.cube {
+  transform: scaleX(0.3) scaleY(0.3) translate(-100%, -100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.splitter {
+  height: 100vh;
+  width: 100vw;
+}
